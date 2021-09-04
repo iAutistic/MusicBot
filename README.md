@@ -10,13 +10,15 @@
 
 easiest way to play music in your Discord server 🎶
 
-[![Setup](https://imgur.com/N6e0Qov)](https://github.com/jagrosh/MusicBot/wiki/Setup)
+[![Setup](https://media.giphy.com/media/13GIgrGdslD9oQ/giphy.gif)](https://github.com/jagrosh/MusicBot/wiki/Setup)
 
 ## Features
 
+**Soon**
+
 ## Example
 
-![Loading Example...](https://imgur.com/N6e0Qov)
+![Loading Example...](https://media.giphy.com/media/13GIgrGdslD9oQ/giphy.gif)
 
 ## Setup
 
