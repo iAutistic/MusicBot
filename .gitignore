@@ -2,6 +2,7 @@ node_modules
 
 Lavalink.jar
 slappey.json
+application.yml
 
 /src/commands/test
 /src/commands/Developers
