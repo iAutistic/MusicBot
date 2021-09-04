@@ -12,7 +12,8 @@ module.exports = class ReadyEvent extends BaseEvent {
       )}] [INFO] [Client]: Login Successful!`
     );
 
-    const game = client.config.game.replace("DEFAULT", "PLAYING");
+    const game = client.config.game.replace("DEFAULT", "PLAYING").toUpperCase();
+
     const prefix =
       client.config.prefix === "@mention"
         ? client.config.prefix.replace(
@@ -20,6 +21,7 @@ module.exports = class ReadyEvent extends BaseEvent {
             "@" + client.user.username + " "
           )
         : client.config.prefix;
+
     const status = client.config.status.toLowerCase();
 
     client.user.setPresence({
