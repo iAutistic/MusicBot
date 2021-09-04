@@ -1,0 +1,8 @@
+node_modules
+
+Lavalink.jar
+slappey.json
+
+/src/commands/test
+/src/commands/Developers
+/config.js
