@@ -4,6 +4,9 @@ Lavalink.jar
 slappey.json
 application.yml
 
+config.yml
+config.js
+
 /src/commands/test
 /src/commands/Developers
 /config.js
