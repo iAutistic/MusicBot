@@ -4,13 +4,13 @@ Config:
   # If you don't know how to get a bot token, please see the guide here:
   # https://github.com/iAutistic/MusicBot/wiki/Getting-a-Bot-Token
 
-  token: "BOT_TOKEN_HERE"
+  token: BOT_TOKEN_HERE
 
   # This sets the owner of the bot
   # This needs to be the owner's ID (a 17-18 digit number)
   # https://github.com/iAutistic/MusicBot/wiki/Finding-Your-User-ID
 
-  owner: "0"
+  owner: 0
 
   # This sets the prefix for the bot
   # The prefix is used to control the commands
@@ -26,10 +26,6 @@ Config:
   # You can make the game "Playing X", "Listening to X", or "Watching X"
   # where X is the title. If you don't include an action, it will use the
   # default of "Playing"
-  # PLAYING
-  # STREAMING
-  # LISTENING
-  # WATCHING
 
   game: "DEFAULT"
 
