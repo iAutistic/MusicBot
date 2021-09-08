@@ -13,6 +13,8 @@ module.exports = class ReadyEvent extends BaseEvent {
     );
 
     const game = client.config.game.replace("DEFAULT", "PLAYING").toUpperCase();
+    // const Gmae = client.config.game.replace("").replace("").replace("").replace("");
+    // const Activity = client.config.game;
 
     const prefix =
       client.config.prefix === "@mention"
@@ -30,6 +32,7 @@ module.exports = class ReadyEvent extends BaseEvent {
     });
 
     await client.music.init(client.user.id);
+
     if (client.guilds.cache.size < 1) {
       await console.log(
         `[${await getFormattedDate(
