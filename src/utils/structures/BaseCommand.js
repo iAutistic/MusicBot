@@ -12,14 +12,14 @@ module.exports = class BaseCommand {
     cooldown,
   }) {
     this.name = name;
-    this.category = category;
+    this.category = category || "";
     this.aliases = aliases || [];
-    this.description = description;
-    this.usage = usage;
-    this.examples = examples;
-    this.permissions = permissions;
+    this.description = description || "";
+    this.usage = usage || [];
+    this.examples = examples || [];
+    this.permissions = permissions || [];
     this.guildOnly = guildOnly || true;
-    this.devOnly = devOnly || true;
-    this.cooldown = cooldown;
+    this.devOnly = devOnly || false;
+    this.cooldown = cooldown || 0;
   }
 };
