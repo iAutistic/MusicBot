@@ -1,5 +1,6 @@
 const BaseEvent = require("../../utils/structures/BaseEvent");
 const getFormattedDate = require("../../utils/time");
+const path = require("path");
 
 module.exports = class ReadyEvent extends BaseEvent {
   constructor() {
@@ -13,6 +14,7 @@ module.exports = class ReadyEvent extends BaseEvent {
     );
 
     const game = client.config.game.replace("DEFAULT", "PLAYING").toUpperCase();
+
     // const Gmae = client.config.game.replace("").replace("").replace("").replace("");
     // const Activity = client.config.game;
 
