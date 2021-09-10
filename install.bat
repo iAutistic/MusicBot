@@ -1,3 +1,5 @@
-npm i
-echo "Successfully Installed now open start.bat or run by node server.js"
+yarn install
+
+echo "Successfully Installed now run by yarn start / yarn jstart"
+
 PAUSE
