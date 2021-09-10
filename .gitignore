@@ -1,12 +1,12 @@
 node_modules
-install.bat
+/install.bat
 
 Lavalink.jar
 slappey.json
 application.yml
 
 config.yml
-config.yml.example
+/config.yml.example
 config.js
 
 /src/commands/test
